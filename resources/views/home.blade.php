@@ -120,7 +120,7 @@
                         </div>
                     @endif
 
-                    You are successfully logged in!
+                        You are successfully logged in!
                         <p>You will be redirected in <span id="counter">3</span> second(s).</p>
                         <script type="text/javascript">
                             function countdown() {
