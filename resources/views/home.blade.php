@@ -121,15 +121,12 @@
                     @endif
 
                         You are successfully logged in!
-                        <p>You will be redirected in <span id="counter">3</span> second(s).</p>
+                        <p>You will be redirected in <span id="counter">0</span> second(s).</p>
                         <script type="text/javascript">
                             function countdown() {
                                 var i = document.getElementById('counter');
                                 if (parseInt(i.innerHTML)<=0) {
                                     location.href = ('students');
-                                }
-                                if (parseInt(i.innerHTML)!=0) {
-                                    i.innerHTML = parseInt(i.innerHTML)-1;
                                 }
                             }
                             setInterval(function(){ countdown(); },1000);
