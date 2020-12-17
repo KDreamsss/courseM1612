@@ -15,11 +15,11 @@ use App\Http\Controllers\StudentsController;
 */
 
 Route::get('/', function () {
-    return view('login');
+    return view('/login');
 });
 
 
-Route::resource('students', StudentsController::class);
+Route::resource('/students', StudentsController::class);
 
 // Route::resource('students', 'StudentsController');
 
