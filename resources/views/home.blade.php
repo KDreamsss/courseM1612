@@ -126,7 +126,7 @@
                             function countdown() {
                                 var i = document.getElementById('counter');
                                 if (parseInt(i.innerHTML)<=0) {
-                                    location.href = 'students';
+                                    location.href = "{{ url('/students') }}";
                                 }
                                 if (parseInt(i.innerHTML)!=0) {
                                     i.innerHTML = parseInt(i.innerHTML)-1;
