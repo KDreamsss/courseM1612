@@ -56,7 +56,7 @@
         <nav class="header navbar navbar-expand-md navbar-dark shadow-sm ">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/login') }}">
-                    <h1>{{ __('Course Management' }}</h1>
+                    <h1>Course Management</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
