@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <div class="card">
 				<img src="https://t3.ftcdn.net/jpg/02/20/14/38/360_F_220143804_fc4xRygvJ8bn8JPQumtHJieDN4ORNyjs.jpg" class="card-img-top" alt="...">
-                <div class="card-header">Student Management System</div>
+                <div class="card-header">{{ __('Student Management System') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
