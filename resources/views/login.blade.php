@@ -5,7 +5,7 @@
     <div class="row justify-content-center" style="margin: 20px">
         <div class="col-md-8" style="padding: 15px">
             <div class="card">
-                <div class="card-header"><h1>{{ __('Welcome Back!') }}</h1></div>
+                <div class="card-header"><h1>Welcome</h1></div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
