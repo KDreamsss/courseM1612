@@ -15,7 +15,7 @@ use App\Http\Controllers\StudentsController;
 */
 
 Route::get('/', function () {
-    return view('/login');
+    return view('http://courseweb16.herokuapp.com/login');
 });
 
 
